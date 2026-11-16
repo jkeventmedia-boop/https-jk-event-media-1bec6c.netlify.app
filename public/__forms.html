@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Demande de devis — enregistrement du formulaire</title>
+  </head>
+  <body>
+    <form
+      name="demande-devis"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      hidden
+    >
+      <input type="hidden" name="form-name" value="demande-devis" />
+      <input name="subject" />
+      <input name="name" />
+      <input name="phone" type="tel" />
+      <input name="email" type="email" />
+      <input name="event-type" />
+      <input name="event-date" />
+      <input name="location" />
+      <input name="package" />
+      <textarea name="message"></textarea>
+      <input name="bot-field" />
+    </form>
+  </body>
+</html>
